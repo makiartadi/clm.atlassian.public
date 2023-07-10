@@ -29,4 +29,4 @@ jobs:
     needs: deploy-dev
     steps:
       - name: Run a one-line script
-        run: STOP WORKING!!
+        run: echo deploy prd
