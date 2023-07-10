@@ -24,7 +24,7 @@ jobs:
   deploy-prd:
     runs-on: ubuntu-latest
     environment:
-      name: PRD-DUMMY
+      name: PRD
       url: "https://atlassian.com"
     needs: deploy-dev-dummmy
     steps:
