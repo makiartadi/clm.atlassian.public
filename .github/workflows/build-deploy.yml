@@ -24,9 +24,9 @@ jobs:
   deploy-prd:
     runs-on: ubuntu-latest
     environment:
-      name: PRD
+      name: PRD-DUMMY
       url: "https://atlassian.com"
-    needs: deploy-dev
+    needs: deploy-dev-dummmy
     steps:
       - name: Run a one-line script
         run: echo deploy prd
