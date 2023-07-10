@@ -26,7 +26,7 @@ jobs:
     environment:
       name: PRD
       url: "https://atlassian.com"
-    needs: deploy-dev
+    needs: deploy-dev-dummy
     steps:
       - name: Run a one-line script
         run: echo deploy prd
